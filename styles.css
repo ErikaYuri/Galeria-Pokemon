@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aqua;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #0f642f;
+}
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card{
+    width: 31%;
+    display: inline-block;
+    padding: 15px;
+    margin: 1% 1%;
+}
+.product-image{
+    height: 300px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+
+    background-image: url('.../img/tenis1.jpg');
+}
+#img-2{
+    background-image: url(C:\Users\Administrador\Desktop\Projeto3\img\tenis2.jpg);
+}
+#img-3{
+
+    background-image: url(C:\Users\Administrador\Desktop\Projeto3\img\tenis3.jpg);
+}
+#img-4{
+
+    background-image: url(C:\Users\Administrador\Desktop\Projeto3\img\tenis4.jpg);
+}
+h3{
+    margin-bottom: 10px;
+    color: aquamarine;
+    border-left: 5px solid #0f642f;
+    padding-left: 7px;
+    font-size: 24px;
+}
+footer{
+    background-color: aqua;
+    color: #fff;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+
+    padding: 80px;
+}
